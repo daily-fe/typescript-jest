@@ -32,3 +32,4 @@ Jest为我们提供了不同种类的Matchers去测试我们的代码
    - Promise：then后进行同步方式的语法书写
    - Async/Await：await后进行同步方式的语法书写
    - 方便测试的异步语法:`async() => { await expect(fetchData()).resolves.toBe('x')}`
+   - 使用`resolves/rejects不需要添加expect.assertions了`，详情见： [jest-pull-request-7131](https://github.com/facebook/jest/pull/7131)
